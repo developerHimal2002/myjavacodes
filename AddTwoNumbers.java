@@ -17,6 +17,9 @@ public class AddTwoNumbers {
 			
 			System.out.println(a+b);
 		}
+		//int a = in.nextInt();
+		//int b = in.nextInt();
+		//you can use this mehod if the size of number is fixed.
 	
 	}
 
