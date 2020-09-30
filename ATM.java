@@ -16,7 +16,7 @@ public class ATM {
 				float final_Balance = (float)(bank_Balance - withdraw_Ammount - 0.50);
 				System.out.println(final_Balance);
 			}
-    	else
+    		else
 			System.out.println(bank_Balance);
 		
 		}
