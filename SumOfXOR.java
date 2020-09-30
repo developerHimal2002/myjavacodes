@@ -24,7 +24,7 @@ public class SumOfXOR {
 	        
 	        for(int j=1; j<n; j++)
 	        {
-	        		XOR = XOR ^ num[j];
+	        		XOR = XOR ^ num[j];//you can also use the another Efficient method for that.
 	        }
 	        
 	        System.out.println(XOR);
