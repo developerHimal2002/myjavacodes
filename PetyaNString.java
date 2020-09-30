@@ -7,9 +7,11 @@ public class PetyaNString {
 		//Scanner sc = new Scanner(System.in);
 
 
-        String str1 = new String("AAA"); 
-        String str2 = new String("AAA"); 
-        
+        //String str1 = new String("AAA"); // you can also make the literal String.
+	String str1 = "AAA";
+        //String str2 = new String("AAA"); 
+        String str2 = "AAA";
+		
         for (int i = 0; i < str1.length() &&  
                 i < str2.length(); i++) { 
         if ((int)str1.charAt(i) == (int)str2.charAt(i)) 
